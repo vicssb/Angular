@@ -1,0 +1,10 @@
+ng new NOME
+cd NOME
+npm start
+em outro terminal: ng g c alunos  OU  em src/app: CBD - generate componet
+Em app.componet: <router-outlet>
+Em AppRoutingModule: 
+		const routes: Routes = [
+		  {path: 'professores', component: ProfessoresComponent}
+		];
+
