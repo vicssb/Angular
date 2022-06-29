@@ -1,7 +1,7 @@
 # ANGULAR app development + ASP.NET Core WebAPI + EF Core - SPA - 2022
 
 <div align="right"> 
-<a href="./readme.md"> <img src="./img/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./img/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
+<a href="./README.md"> <img src="./img/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./img/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
 </div>
 
 <img src="./img/logo.png" alt="Logo .NET" width="200"/> <img src="./img/logo2.png" alt="Logo Azure" width="140"/> <img src="./img/logo3.png" alt="Logo MVC" width="140"/>
@@ -51,8 +51,17 @@ Here are the technologies used in this project
  
 * **Victor Sérgio Silva Barros**: 
 
-- @vicssb (https://github.com/vicssb)
-- vicssb@gmail.com
- 
-Please follow github and join us!
-Thanks to visiting me and good coding!
+<p align="left">
+  <a href="mailto:vicssb@gmail.com" alt="Gmail" target = "_blank">
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=mailto:vicssb@gmail.com" /></a>
+
+  <a href="https://www.linkedin.com/in/victor-sergio-silva-barros/" alt="Linkedin" target = "_blank">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/victor-sergio-silva-barros/" /></a>
+
+  <a href="https://wa.me/+5512987085327" alt="WhatsApp" target = "_blank">
+  <img src="https://img.shields.io/badge/-WhatsApp-25d366?style=flat-square&labelColor=25d366&logo=whatsapp&logoColor=white&link=https://wa.me/+5512987085327"/></a>
+
+  </p>  
+
+<p>Please follow github and join us!
+Thanks for visiting and happy coding!</p>
