@@ -1,9 +1,12 @@
-# <a href="./leiame.md"> <img src="./img/logoBrazil.png" alt="Logo Brasil" width="30"/> Aplicativo ANGULAR + ASP.NET </a><a href="./readme.md"> <img src="./img/LogoUK.png" alt="Logo UK" width="50"/></a>
+# Desenvolvimento de aplicativos ANGULAR + ASP.NET Core WebAPI + EF Core - SPA
+
+<div align="right"> 
+<a href="./readme.md"> <img src="./img/LogoUK.png" alt="Logo UK" width="30"/></a><a href="./leiame.md"> <img src="./img/logoBrazil.png" alt="Logo Brasil" width="30"/> </a>
+</div>
 
 
 <img src="./img/logo.png" alt="Logo .NET" width="200"/> <img src="./img/logo2.png" alt="Logo Azure" width="140"/> <img src="./img/logo3.png" alt="Logo MVC" width="140"/>
  
-## Desenvolvimento de aplicativos ANGULAR + ASP.NET Core WebAPI + EF Core - SPA - 2022
  
 Sistema SmartSchool **** EM PRODUÇÃO *****
  
@@ -14,6 +17,7 @@ Aqui estão as tecnologias usadas neste projeto
  
 * Visual Studio Code com as seguintes tecnologias:
   - Entity Framework
+  - ngx-bootstrap
   - SqlServer
   - Migration
   - Code first

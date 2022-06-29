@@ -7,6 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PerfilComponent implements OnInit {
 
+  title = 'Perfil';
+
+  Perfil = [
+    {nome: 'Pf1'},
+    {nome: 'Pf2'},
+    {nome: 'Pf3'},
+    {nome: 'Pf4'},
+    {nome: 'Pf5'},
+    {nome: 'Pf6'},
+    {nome: 'Pf7'},
+  ];
+
   constructor() { }
 
   ngOnInit() {

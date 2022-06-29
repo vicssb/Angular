@@ -1,48 +1,19 @@
-ng new NOME
-cd NOME
-npm start
-CRIAR COMPONENT
-em outro terminal: ng g c alunos  OU  em src/app: CBD - generate componet
-Em app.componet: 
-		<nav>
-			<ul>
-				<li>
-					<a routerLink="professores">Professores</a>
-				</li>
-				<li>
-					<a routerLink="alunos">Alunos</a>
-				</li>
-			</ul>
-		</nav>
-		<router-outlet>
-Em AppRoutingModule: 
-		const routes: Routes = [
-		  {path: 'professores', component: ProfessoresComponent}
-		];
-No terminal do Node:
-	npm i bootstrap
-	ng add ngx-bootstrap
-
-Em style.css: @import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
-src/app: CBD - generate componet = Nav 
-NavComponet:
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a routerLink="Dashboard" class="navbar-brand">Smart School</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <li class="nav-link">
+          <a routerLink="professores" routerLinkActive="active" class="nav-link">Professores</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a routerLink="alunos" routerLinkActive="active" class="nav-link">Alunos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a routerLink="Perfil" routerLinkActive="active" class="nav-link">Perfil</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -58,6 +29,3 @@ NavComponet:
     </div>
   </div>
 </nav>
-
-
-
